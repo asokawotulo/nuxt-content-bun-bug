@@ -25,3 +25,5 @@ ReferenceError: Can't find variable: DecompressionStream
 For some reason [bunsqlite polyfills](https://github.com/nuxt/content/blob/cb105a4eb5e22f4c5b48220c526aa2be7c3fcf71/src/runtime/internal/connectors/bunsqlite.ts) are not being loaded correctly.
 
 I also noticed that if you roll back to `@nuxt/content@3.0.1` the error goes away. So it seems to be a regression that happened after `@nuxt/content@3.1.0`.
+
+This issue should be fixed in `@nuxt/content@3.2.0` but it's still happening.
